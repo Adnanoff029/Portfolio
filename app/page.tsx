@@ -1,8 +1,9 @@
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import Recent from "@/components/Recent";
+import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { FaHome } from "react-icons/fa";
+import { navItems } from "@/data";
 
 export default function Home() {
   return (
@@ -11,12 +12,11 @@ export default function Home() {
     justify-center overflow-hidden items-center flex-col mx-auto sm:px-10 px-5"
     >
       <div className="max-w-7xl  w-full">
-        <FloatingNav
-          navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
-        />
+        <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <Recent />
+        <Projects />
+        <Experience />
       </div>
     </main>
   );
