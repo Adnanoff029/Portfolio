@@ -7,6 +7,16 @@ export const navItems = [
 
 export const gridItems = [
   {
+    id: 3,
+    title: "My tech stack",
+    description: "I constantly try to improve",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-center",
+    img: "",
+    spareImg: "",
+  },
+  {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
@@ -26,16 +36,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
+
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
