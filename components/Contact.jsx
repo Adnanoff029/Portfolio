@@ -7,11 +7,11 @@ export default function Contact() {
     <div className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          I'd love to <span className="text-purple">work</span> with you.
+          I&apos;d love to <span className="text-purple">work</span> with you.
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let's discuss and develop something nice and
-          efficient.
+          Reach out to me today and let&apos;s discuss and develop something
+          nice and efficient.
         </p>
         <a href="mailto:adnankhanofficial029@gmail.com">
           <MagicButton
