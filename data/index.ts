@@ -77,8 +77,8 @@ export const projects = [
     title: "Instalight - Social Media Website",
     des: "A website meant for socializing and connecting the world like Instagram using Firebase, React, Zustand, Chakra UI etc.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/re.svg", "/tail.svg", "/firebase.svg", "vite.svg"],
+    link: "https://github.com/Azuredragon1947/Instalight_instagram_clone",
   },
   {
     id: 2,
@@ -86,17 +86,8 @@ export const projects = [
     title: "Popcorn Time",
     des: "Search your favourite movies, rate them, add them to your list and get a summary of your avg ratings, runtime and total watchtime using react, tailwind CSS and API(s).",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  },
-  {
-    id: 3,
-    name: "AIISA",
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/tail.svg", "/re.svg"],
+    link: "https://github.com/Azuredragon1947/popcorn_time",
   },
 ];
 
