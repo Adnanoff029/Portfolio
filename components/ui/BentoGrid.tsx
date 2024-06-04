@@ -70,7 +70,10 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover object-center")}
+              className={cn(
+                imgClassName,
+                `object-cover object-center ${id === 5 && "opacity-50"}`
+              )}
             />
           )}
         </div>
@@ -106,7 +109,6 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
-
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
