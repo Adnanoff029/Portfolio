@@ -20,7 +20,7 @@ export default function Home() {
         <Grid />
         <TechStack />
         <Projects />
-        {/* <Experience /> */}
+        <Experience />
         <Contact />
       </div>
     </main>
