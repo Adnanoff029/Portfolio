@@ -78,7 +78,7 @@ export const projects = [
     des: "A website meant for socializing and connecting the world like Instagram using Firebase, React, Zustand, Chakra UI etc.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/firebase.svg", "vite.svg"],
-    link: "https://github.com/Azuredragon1947/Instalight_instagram_clone",
+    link: "https://github.com/AdnanOff029/Instalight_instagram_clone",
   },
   {
     id: 2,
@@ -87,7 +87,16 @@ export const projects = [
     des: "Search your favourite movies, rate them, add them to your list and get a summary of your avg ratings, runtime and total watchtime using react, tailwind CSS and API(s).",
     img: "/p2.svg",
     iconLists: ["/tail.svg", "/re.svg"],
-    link: "https://github.com/Azuredragon1947/popcorn_time",
+    link: "https://github.com/Adnanoff029/popcorn_time",
+  },
+  {
+    id: 3,
+    name: "Video Streaming Platform",
+    title: "VideoTube",
+    des: "Create videos, upload them or find your favourite creator, subscribe and support them for more content. Created using js, Express, MonogoBD, Cloudinary, JWT for authentication.",
+    img: "/p2.svg",
+    iconLists: ["/express.svg", "/node.svg", "/js.svg", "mongo.svg"],
+    link: "https://github.com/AdnanOff029/backend_practice",
   },
 ];
 
@@ -145,7 +154,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/Azuredragon1947",
+    url: "https://github.com/Adnanoff029",
   },
   {
     id: 2,
